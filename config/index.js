@@ -16,13 +16,13 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "ooyMq67asUR2Tuo52xvJCAclzoMQ",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "NfVckftBbAkt7EIPGRpqTmjcpoyRXZefgIIUyL5y3BI",
+      useTemplateId: "Eg1iFS7ne-xP7nhDTpYCSSzclA-EwVxxvMr0fPJwDv4",
       // 所在省份
       province: "辽宁",
       // 所在城市
       city: "大连",
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
-      openUrl: "https://weibo.com/newlogin?tabtype=search&openLoginLayer=0&url=https%3A%2F%2Fweibo.com%2F"
+      openUrl: "https://m.weibo.cn/"
     }
   ],
 
@@ -81,7 +81,9 @@ export const config = {
     * 比如：keyword: "love_date" ，在测试号中就是 {{ love_date.DATA }} 
     * */
   CUSTOMIZED_DATE_LIST: [
-   
+    // 在一起的日子
+    {"keyword": "love_day", date: "2022-05-09"},
+    
   ],
 
   /** 插槽 */
